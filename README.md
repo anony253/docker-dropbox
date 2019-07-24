@@ -4,9 +4,9 @@
 
 Run Dropbox inside Docker. Fully working with local host folder mount or inter-container linking (via `--volumes-from`).
 
-This repository provides the [drodgers/dropbox](https://registry.hub.docker.com/u/drodgers/dropbox/) image.
+This repository provides the [anony253/dropbox-stretch](https://registry.hub.docker.com/u/anony253/dropbox-stretch/) image.
 
-Forked from https://github.com/janeczku/docker-dropbox to add [dimaryaz's patch](https://github.com/dimaryaz/dropbox_ext4) to keep dropbox working on non-ext4 filesystems.
+Forked from https://github.com/djrodgerspryor/docker-dropbox to update Debian version to Stretch.
 
 ## Usage examples
 
