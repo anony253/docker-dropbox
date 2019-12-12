@@ -10,7 +10,7 @@ RUN apt-get -qqy update \
     && apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1C61A2656FB57B7E4DE0F4C1FC918B335044912E \
     # Note 'ca-certificates' dependency is required for 'dropbox start -i' to succeed
     && apt-get -qqy update \
-    && apt-get -qqy install ca-certificates curl python-gpgme dropbox python3 \
+    && apt-get -qqy install ca-certificates curl python-gpgme libatomic1 dropbox python3 \
     # Perform image clean up.
     && apt-get -qqy autoclean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* \
